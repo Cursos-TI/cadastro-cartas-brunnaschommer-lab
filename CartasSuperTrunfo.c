@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // === Carta 1 ===
+
     char estado1;
     char codigo1[5];            // Exemplo: A01
     char nomeCidade1[50];
@@ -10,7 +10,7 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-    // === Carta 2 ===
+   
     char estado2;
     char codigo2[5];            // Exemplo: B03
     char nomeCidade2[50];
@@ -19,7 +19,7 @@ int main() {
     float pib2;
     int pontosTuristicos2;
 
-    // === Entrada dos dados da Carta 1 ===
+    
     printf("CARTA 1\n");
 
     printf("Informe o estado (A-H): ");
@@ -43,7 +43,7 @@ int main() {
     printf("Informe o numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    // === Entrada dos dados da Carta 2 ===
+   
     printf("\nCARTA 2\n");
 
     printf("Informe o estado (A-H): ");
@@ -67,7 +67,7 @@ int main() {
     printf("Informe o numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    // === Exibição dos dados ===
+   
     printf("\n\n=== CARTA 1 ===\n");
     printf("Estado: %c\n", estado1);
     printf("Codigo: %s\n", codigo1);
